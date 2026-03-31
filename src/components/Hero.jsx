@@ -7,17 +7,17 @@ export default function Hero() {
       {/* RIGHT GREEN BACKGROUND */}
       <div className="absolute top-0 right-0 w-[60%] h-full hero-bg"></div>
 
-      <div className="max-w-7xl mx-auto w-full grid md:grid-cols-2 items-center px-10 z-10">
+      <div className="max-w-7xl mx-auto w-full grid md:grid-cols-2 items-center px-5 sm:px-10 z-10">
 
         {/* LEFT */}
         <div>
           <h4 className="text-white-500 text-xl mb-3">Hello I'm</h4>
 
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-800 mb-4">
+          <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-4">
             Sidharth
           </h1>
 
-          <p className="text-gray-700 text-lg mb-2">
+          <p className="text-gray-700 text-base md:text-lg mb-2">
             Professional Freelance Web Developer
           </p>
 
@@ -37,7 +37,7 @@ export default function Hero() {
           <img
             src={sidhImage}
             alt="profile"
-            className="w-[350px] md:w-[450px] object-contain"
+            className="w-64 sm:w-80 md:w-[450px] object-contain"
           />
         </div>
 
