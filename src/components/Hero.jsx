@@ -2,16 +2,16 @@ import sidhImage from "../assets/sidh6.jpeg";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden px-4 sm:px-6 md:px-0">
+    <section className="relative min-h-screen flex items-center overflow-hidden px-4 sm:px-6">
 
-      {/* RIGHT GREEN BACKGROUND */}
-      <div className="absolute top-0 right-0 w-[60%] h-full hero-bg"></div>
+      {/* ✅ GREEN BACKGROUND (FIXED) */}
+      <div className="absolute top-0 right-0 w-[60%] h-full hero-bg hidden md:block"></div>
 
-      <div className="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 items-center px-0 sm:px-6 md:px-10 z-10 gap-6 sm:gap-8 md:gap-0">
+      <div className="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 items-center px-0 sm:px-6 md:px-10 z-10 gap-8">
 
-        {/* LEFT */}
+        {/* ✅ LEFT */}
         <div className="text-center md:text-left">
-          <h4 className="text-white-500 text-base sm:text-lg md:text-xl mb-2 sm:mb-3">
+          <h4 className="text-gray-500 text-base sm:text-lg md:text-xl mb-2 sm:mb-3">
             Hello I'm
           </h4>
 
@@ -34,7 +34,7 @@ export default function Hero() {
           </a>
         </div>
 
-        {/* RIGHT IMAGE */}
+        {/* ✅ RIGHT IMAGE */}
         <div className="flex justify-center md:justify-end">
 
           <div className="relative">
@@ -46,8 +46,8 @@ export default function Hero() {
               src={sidhImage}
               alt="profile"
               className="relative 
-              w-40 h-40 
-              sm:w-60 sm:h-60 
+              w-36 h-36 
+              sm:w-52 sm:h-52 
               md:w-[420px] md:h-[420px] 
               object-cover rounded-full border-4 border-white shadow-2xl"
             />
