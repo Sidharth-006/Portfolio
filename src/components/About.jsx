@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaInstagram, FaGlobe } from "react-icons/fa";
 import sidhImage from "../assets/sidh1.jpg";
+import { SiRender } from "react-icons/si";
 
 export default function About() {
   return (
@@ -74,7 +75,7 @@ export default function About() {
               rel="noreferrer"
               className="text-green-500 hover:text-green-700 transition transform hover:scale-125"
             >
-              <FaGlobe />
+              <SiRender />
             </a>
 
           </div>
