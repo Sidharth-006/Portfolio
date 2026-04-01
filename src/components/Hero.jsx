@@ -1,4 +1,4 @@
-import sidhImage from "../assets/sidh.jpeg";
+import sidhImage from "../assets/sidh6.jpeg";
 
 export default function Hero() {
   return (
@@ -34,11 +34,21 @@ export default function Hero() {
 
         {/* RIGHT IMAGE */}
         <div className="flex justify-center md:justify-end">
-          <img
-            src={sidhImage}
-            alt="profile"
-            className="w-64 sm:w-80 md:w-[450px] object-contain"
-          />
+          
+          {/* 🔥 IMAGE WRAPPER (NEW) */}
+          <div className="relative">
+
+            {/* Glow Effect */}
+            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-green-400 to-blue-500 blur-2xl opacity-60"></div>
+
+            <img
+              src={sidhImage}
+              alt="profile"
+              className="relative w-52 h-52 sm:w-72 sm:h-72 md:w-[420px] md:h-[420px] object-cover rounded-full border-4 border-white shadow-2xl"
+            />
+
+          </div>
+
         </div>
 
       </div>

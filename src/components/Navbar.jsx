@@ -9,7 +9,7 @@ export default function Navbar() {
       </h1>
 
       {/* MENU (ONLY THIS CHANGED ✅) */}
-      <ul className="hidden md:flex gap-8 text-white font-medium">
+      <ul className="hidden md:flex gap-8 text-black font-medium">
         <li>
           <a href="#home" className=" border-white">
             Home

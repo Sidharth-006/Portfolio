@@ -16,3 +16,23 @@
 .project-bg {
   background: linear-gradient(135deg, #00c6a7, #1e9e8f, #0f2027);
 }
+
+@keyframes gradientMove {
+  0% {
+    transform: translate(0%, 0%) scale(1);
+  }
+  50% {
+    transform: translate(10%, 10%) scale(1.1);
+  }
+  100% {
+    transform: translate(0%, 0%) scale(1);
+  }
+}
+
+.animate-gradient {
+  animation: gradientMove 8s ease-in-out infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
