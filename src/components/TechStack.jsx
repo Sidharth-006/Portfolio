@@ -12,7 +12,7 @@ import { SiTailwindcss, SiRender } from "react-icons/si";
 export default function TechStack() {
   return (
     <section
-      id="techstack"
+      id="TechStack"
       className="relative min-h-screen flex items-center justify-center overflow-hidden px-5 sm:px-8"
     >
 
