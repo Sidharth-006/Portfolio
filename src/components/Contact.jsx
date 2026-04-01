@@ -1,5 +1,5 @@
 import { FaEnvelope, FaWhatsapp, FaPhone } from "react-icons/fa";
-import sidhImage from "../assets/sidha.jpeg";
+import sidhImage from "../assets/sidh.jpeg";
 
 export default function Contact() {
   return (
@@ -55,7 +55,7 @@ export default function Contact() {
               <div>
                 <p className="text-white font-semibold text-xs sm:text-sm md:text-base">Email</p>
                 <p className="text-gray-400 text-[10px] sm:text-xs md:text-sm break-all">
-                  yourgmail@gmail.com
+                  sidharthsingh3191@gmail.com
                 </p>
               </div>
             </div>
