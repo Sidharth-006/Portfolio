@@ -11,7 +11,7 @@ export default function Projects() {
   // 🔥 PROJECT DATA (name + image + links)
   const projects = [
     {
-      title: "Explor World",
+      title: "Explore World",
       image: p1,
       live: "https://sidharth-006.github.io/Explor-World/",
       github: "https://github.com/Sidharth-006/Explor-World",
@@ -71,7 +71,7 @@ export default function Projects() {
 
               {/* DESC */}
               <p className="text-gray-200 text-sm mb-4">
-                This is a modern web project built using React and Tailwind CSS.
+                This is a modern web project built using Html, CSS and JS.
               </p>
 
               {/* BUTTONS */}
