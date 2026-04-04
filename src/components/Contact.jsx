@@ -47,7 +47,7 @@ export default function Contact() {
 
           {/* EMAIL */}
           <a
-            href="mailto:yourgmail@gmail.com"
+            href="mailto:sidharthsingh3191@gmail.com"
             className="flex items-center justify-between bg-gray-800 hover:bg-gray-700 transition p-3 sm:p-4 md:p-5 rounded-xl border border-gray-700 hover:border-green-400"
           >
             <div className="flex items-center gap-2 sm:gap-3 md:gap-4">
