@@ -1,5 +1,5 @@
 import { FaEnvelope, FaWhatsapp, FaPhone } from "react-icons/fa";
-import sidhImage from "../assets/webp.jpeg";
+import sidhImage from "../assets/R1.webp";
 
 export default function Contact() {
   return (

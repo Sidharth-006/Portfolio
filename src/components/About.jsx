@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaInstagram, FaGlobe } from "react-icons/fa";
-import sidhImage from "../assets/webp1.jpg";
+import sidhImage from "../assets/R.webp";
 import { SiRender } from "react-icons/si";
 
 export default function About() {
