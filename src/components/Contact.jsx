@@ -1,5 +1,5 @@
 import { FaEnvelope, FaWhatsapp, FaPhone } from "react-icons/fa";
-import sidhImage from "../assets/sidh.jpeg";
+import sidhImage from "../assets/webp.jpeg";
 
 export default function Contact() {
   return (
@@ -28,6 +28,7 @@ export default function Contact() {
             <img
               src={sidhImage}
               alt="profile"
+              loading="lazy"
               className="relative w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48 object-cover rounded-full border-4 border-white shadow-xl"
             />
           </div>
@@ -64,7 +65,7 @@ export default function Contact() {
 
           {/* WHATSAPP */}
           <a
-            href="https://wa.me/91XXXXXXXXXX"
+            href="https://wa.me/6203929421"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-between bg-gray-800 hover:bg-gray-700 transition p-3 sm:p-4 md:p-5 rounded-xl border border-gray-700 hover:border-green-400"
@@ -83,7 +84,7 @@ export default function Contact() {
 
           {/* PHONE */}
           <a
-            href="tel:+91XXXXXXXXXX"
+            href="tel:+6203929421"
             className="flex items-center justify-between bg-gray-800 hover:bg-gray-700 transition p-3 sm:p-4 md:p-5 rounded-xl border border-gray-700 hover:border-green-400"
           >
             <div className="flex items-center gap-2 sm:gap-3 md:gap-4">
@@ -91,7 +92,7 @@ export default function Contact() {
               <div>
                 <p className="text-white font-semibold text-xs sm:text-sm md:text-base">Phone</p>
                 <p className="text-gray-400 text-[10px] sm:text-xs md:text-sm">
-                  +91 XXXXX XXXXX
+                  +91 62039 29421
                 </p>
               </div>
             </div>

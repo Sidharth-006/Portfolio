@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 // ✅ IMPORT YOUR IMAGES (assets folder)
-import p1 from "../assets/project1.jpeg";
-import p2 from "../assets/project2.jpeg";
-import p3 from "../assets/project3.jpeg";
+import p1 from "../assets/project1.webp";
+import p2 from "../assets/project2.webp";
+import p3 from "../assets/project3.webp";
 
 export default function Projects() {
 

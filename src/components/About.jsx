@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaInstagram, FaGlobe } from "react-icons/fa";
-import sidhImage from "../assets/sidh1.jpg";
+import sidhImage from "../assets/webp1.jpg";
 import { SiRender } from "react-icons/si";
 
 export default function About() {
@@ -20,6 +20,7 @@ export default function About() {
           <img
             src={sidhImage}
             alt="Sidharth"
+            loading="lazy"
             className="w-[300px] md:w-[400px] rounded-xl shadow-2xl"
           />
         </motion.div>
